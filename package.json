@@ -1,0 +1,32 @@
+{
+  "name": "@hkukreja/itertools",
+  "version": "0.0.1",
+  "description": "Python's itertools module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "clean": "rm dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkukreja/itertools.git"
+  },
+  "keywords": [
+    "functional",
+    "generators",
+    "itertools"
+  ],
+  "author": "Harish Kukreja <harish.kukreja@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/hkukreja/itertools/issues"
+  },
+  "homepage": "https://github.com/hkukreja/itertools#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.7",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  }
+}
